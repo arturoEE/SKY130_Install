@@ -8,11 +8,11 @@ sudo apt install libgtk-3-dev build-essential
 
 
 1. Install Magic
-git clone https://github.com/RTimothyEdwards/magic.git
+```git clone https://github.com/RTimothyEdwards/magic.git
 cd magic
 sudo ./configure
 sudo make
-sudo make install
+sudo make install```
 
 2. Install Open PDK
 cd ~
