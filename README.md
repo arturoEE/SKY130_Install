@@ -1,7 +1,10 @@
 # SKY130_Install
 Instructions to self on how to install sky130, xschem, magic
+I am bad at linux
 
 0. Prerequisites\
+`sudo apt update && sudo apt install m4 tcsh csh libx11-dev tcl-dev tk-dev libcairo2-dev libncurses-dev libglu1-mesa-dev freeglut3-dev mesa-common-dev`
+`sudo apt-get install build-essential`
 `open software-properties-gtk`\
 Check the Source Code box \
 `sudo apt install libgtk-3-dev build-essential`
