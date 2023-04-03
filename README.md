@@ -18,6 +18,9 @@ Check the Source Code box \
 `cd ~`
 
 3. Install SKY130\
+`cd sky130`\
+`sudo make`
+`sudo make install`
 
 4. Install ngspice\
 `sudo apt install ngspice`
