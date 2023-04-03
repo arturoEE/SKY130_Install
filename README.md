@@ -15,11 +15,14 @@ Check the Source Code box \
 `sudo make install`
 
 2. Install Open PDK\
-`cd ~`
+`cd ~`\
+`./configure --enable-sky130-pdk --enable-sram-sky130`\
+`sudo make`\
+`sudo make install`
 
 3. Install SKY130\
 `cd sky130`\
-`sudo make`
+`sudo make`\
 `sudo make install`
 
 4. Install ngspice\
