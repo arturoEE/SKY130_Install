@@ -1,18 +1,18 @@
 # SKY130_Install
 Instructions to self on how to install sky130, xschem, magic
 
-0. Prerequisites
-open software-properties-gtk
-^ Check source code box
-sudo apt install libgtk-3-dev build-essential
+0. Prerequisites\
+open software-properties-gtk\
+^ Check source code box\
+sudo apt install libgtk-3-dev build-essential\
 
 
-1. Install Magic
-`git clone https://github.com/RTimothyEdwards/magic.git`
-`cd magic`
-`sudo ./configure`
-`sudo make`
-`sudo make install`
+1. Install Magic\
+`git clone https://github.com/RTimothyEdwards/magic.git`\
+`cd magic`\
+`sudo ./configure`\
+`sudo make`\
+`sudo make install`\
 
 2. Install Open PDK
 cd ~
