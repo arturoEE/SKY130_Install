@@ -25,7 +25,8 @@ Check the Source Code box \
 3. Install SKY130\
 `cd sky130`\
 `sudo make`\
-`sudo make install`
+`sudo make install`\
+`sudo ln -s /usr/local/share/pdk/sky130A/libs.tech/magic/* /usr/local/lib/magic/sys/`
 
 4. Install ngspice\
 `sudo apt install ngspice`
