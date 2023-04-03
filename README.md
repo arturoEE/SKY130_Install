@@ -19,7 +19,7 @@ Check the Source Code box \
 
 2. Install Open PDK\
 `cd ~`\
-`git clone https://github.com/RTimothyEdwards/open_pdks.git`\
+`git clone https://github.com/RTimothyEdwards/open_pdks.git` or `git clone git://opencircuitdesign.com/open_pdks`\
 `cd open_pdks`\
 `./configure --enable-sky130-pdk --enable-sram-sky130`\
 `sudo make`\
