@@ -2,9 +2,9 @@
 Instructions to self on how to install sky130, xschem, magic
 
 0. Prerequisites\
-open software-properties-gtk\
-^ Check source code box\
-sudo apt install libgtk-3-dev build-essential\
+`open software-properties-gtk`\
+Check the Source Code box \
+`sudo apt install libgtk-3-dev build-essential`
 
 
 1. Install Magic\
@@ -14,15 +14,15 @@ sudo apt install libgtk-3-dev build-essential\
 `sudo make`\
 `sudo make install`
 
-2. Install Open PDK
-`cd ~`\
+2. Install Open PDK\
+`cd ~`
 
-3. Install SKY130
+3. Install SKY130\
 
-4. Install ngspice
+4. Install ngspice\
 `sudo apt install ngspice`
 
-5. Install gaw
+5. Install gaw\
 `wget http://download.tuxfamily.org/gaw/download/gaw3-20200922.tar.gz`\
 `tar -xf gaw3-20200922.tar.gz`\
 `cd gaw3-20200922`\
@@ -34,7 +34,7 @@ close gaw\
 `gedit ~/.gaw/gawrc`\
 change `up_listenPort = 0` to `up_listenPort = 2020`
 
-6. Install Xschem
+6. Install Xschem\
 `sudo apt build-dep xschem`\
 `sudo apt install xterm graphicsmagick ghostscript`\
 `cd ~`\
