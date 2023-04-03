@@ -62,3 +62,9 @@ Paste in xschemrc:\
 `set XSCHEM_LIBRARY_PATH {}`\
 `append XSCHEM_LIBRARY_PATH :${XSCHEM_SHAREDIR}/xschem_library`\
 `append XSCHEM_LIBRARY_PATH :/usr/local/share/xschem_sky130`
+
+
+7. References\
+`https://lootr5858.wordpress.com/2020/10/06/magic-vlsi-skywater-pdk-local-installation-guide/`\
+`https://github.com/bluecmd/learn-sky130/blob/main/schematic/xschem/getting-started.md`\
+`http://opencircuitdesign.com/open_pdks/install.html`\
